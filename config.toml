@@ -1,0 +1,53 @@
+baseURL = "https://blog.pwlabs.xyz"
+languageCode = "en-us"
+title = "Blog PwLabs"
+copyright = "© ctnguyenvn"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+[params]
+	mode="auto"
+	useCDN=true
+	subtitle = "Chào mừng bạn đến blog cá nhân - nơi ghi lại 1 vài thứ linh tinh"
+
+[pagination]
+  pagerSize = 7
+
+[services]
+  [services.disqus]
+    shortname = "ctnguyenvn"
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/ctnguyenvn"
+
+[[params.social]]
+name = "X"
+icon = "twitter"
+url = "https://x.com/ctnguyenvn/"
+
+# [[params.social]]
+# name = "GitLab"
+# icon = "gitlab"
+# url = "https://gitlab.com/ctnguyenvn/"
+
+[[menu.main]]
+name = "Home"
+url = "https://plablocal.pwlabs.xyz"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
