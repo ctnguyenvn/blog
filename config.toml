@@ -34,7 +34,7 @@ url = "https://x.com/ctnguyenvn/"
 
 [[menu.main]]
 name = "Home"
-url = "https://plablocal.pwlabs.xyz"
+url = "https://pwlabs.xyz"
 weight = 1
 
 [[menu.main]]
