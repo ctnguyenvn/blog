@@ -1,6 +1,6 @@
-baseURL = "https://blog.pwlabs.xyz"
+baseURL = "https://ctnguyenvn.github.io/blog/"
 languageCode = "en-us"
-title = "Blog PwLabs"
+title = "Blog Cyber Security"
 copyright = "© ctnguyenvn"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
@@ -34,7 +34,7 @@ url = "https://x.com/ctnguyenvn/"
 
 [[menu.main]]
 name = "Home"
-url = "https://pwlabs.xyz"
+url = "https://ctnguyenvn.github.io/"
 weight = 1
 
 [[menu.main]]
