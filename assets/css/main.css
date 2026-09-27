@@ -30,7 +30,7 @@
   --content-max-width: 800px;
   --content-padding: 1ch;
   --border-radius: 5px;
-  --font-size-base: 18px;
+  --font-size-base: 16px;
   --line-height-base: 1.65;
   --line-height-content: 1.5;
 }
@@ -248,7 +248,7 @@ pre {
 pre code {
   background-color: transparent;
   color: inherit;
-  font-size: 90%;
+  font-size: 80%;
   padding: 0;
 }
 
