@@ -1,5 +1,4 @@
-baseURL = "https://ctnguyenvn.github.io"
-relativeURLs = true
+baseURL = "https://ctnguyenvn.github.io/blog"
 languageCode = "en-us"
 title = "Blog Cyber Security"
 copyright = "© ctnguyenvn"

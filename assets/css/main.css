@@ -43,7 +43,7 @@
 
 html {
   color: var(--color-text, #232333);
-  font-family: 'Source Serif 4','Fira Sans','Roboto Mono', sans-serif;
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
   font-size: var(--font-size-base, 15px);
   line-height: var(--line-height-base, 1.6);
   scroll-behavior: smooth;
@@ -78,11 +78,11 @@ body {
 
 /* Typography */
 p {
-  font-family: 'Source Serif 4', 'Fira Sans','Segoe UI', sans-serif;
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
   line-height: var(--line-height-content, 1.5);
   /* Fallback for older browsers */
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
   padding-bottom: 0.2em;
 }
 
@@ -294,10 +294,10 @@ header .main {
 h1, h2, h3, h4, h5, h6 {
   font-size: 1.2rem;
   /* Fallback for older browsers */
-  margin-top: 2em;
-  margin-bottom: 0.5em;
+  margin-top: 0.25em;
+  margin-bottom: 0.1em;
   /* Modern logical properties */
-  margin-block-start: 2em;
+  /* margin-block-start: 2em; */
   margin-block-end: 0.5em;
   line-height: 1.2;
 }
@@ -322,6 +322,10 @@ h6::before { color: var(--color-primary, #dc143c); content: '###### '; }
   flex-wrap: wrap;
   gap: 1.25rem;
   align-items: flex-start;
+}
+
+.list-item {
+	margin-bottom: 2rem;
 }
 
 @supports (display: grid) {
@@ -589,7 +593,7 @@ svg {
   position: relative;
   -webkit-overflow-scrolling: touch;
   border-radius: var(--border-radius, 5px);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 /* Code language badges */
 .highlight pre code[class*="language-"] {
